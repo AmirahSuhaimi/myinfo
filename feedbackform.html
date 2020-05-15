@@ -1,0 +1,48 @@
+<html>  
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link href='https://fonts.googleapis.com/css?family=Henny Penny' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+  
+<style>
+body{
+	
+	background-color:violet;
+}
+
+h1{
+	position: relative;
+	font-family: 'Charm';
+	font-size:210%;
+	line-height: 3.0;
+}
+
+.center{
+	text-align:center;
+	}
+</style>     
+</head>  
+<body>
+<script language="Javascript" type="text/Javascript">  
+<!--  
+    function mouseoverevent()  
+    {  
+        alert("I love to hear your feedback");  
+    }  
+    //-->  
+</script>  
+<p onmouseover="mouseoverevent()"> Keep cursor over me</p>  
+<h1 class="center"> Comment Form</h1> 
+<form class="center" action="success_get.php" method="get">
+	<input type="text" name="Name" value="Your Name"><br>
+	<input type="radio" name="gender" value="Male" checked>Male<br>
+	<input type="radio" name="gender" value="Female" checked>Female<br>
+	<textarea name="Comment" width=200 height=100>Put your comment here
+	</textarea><br>
+<input type="submit">
+</form>
+</body>
+</html>
